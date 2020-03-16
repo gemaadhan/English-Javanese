@@ -44,9 +44,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         } else if (position == 1) {
             return mContext.getString(R.string.category_family);
         } else if (position == 2) {
-            return mContext.getString(R.string.category_colors);
-        } else {
             return mContext.getString(R.string.category_phrases);
+        } else {
+            return mContext.getString(R.string.category_colors);
         }
     }
 

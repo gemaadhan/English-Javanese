@@ -10,8 +10,8 @@
         android:id="@+id/sliding_tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/primary_color"
-        app:tabTextColor="@android:color/black"
+        android:background="@drawable/color_white"
+        app:tabTextColor="#323232"
         style="@style/CategoryTab"
         app:tabMode="fixed" />
 
